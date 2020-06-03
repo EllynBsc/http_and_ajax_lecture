@@ -44,7 +44,7 @@ console.log("Hello from src/index.js!");
   //   })
   // });
 
-
+// SECOND STEP: INSERTING THE MOVIE IN THE DOM
   // fetch("http://www.omdbapi.com/?s=harry potter&apikey=adf1f2d7") // open an url and getting back a respsonse
   // // .then(callbackFunction)
   // .then(response => response.json()) //i transform my response into a json object (object from js)
