@@ -16,7 +16,6 @@ console.log("Hello from src/index.js!");
 // // refactoring our code
 // const button = document.querySelector("#click-me")
 
-
 // const callbackFunctionBtn = (event) => {
 //   console.log(event); //print the event type to verify it
 //   console.log(event.currentTarget); //checking my target button
@@ -26,6 +25,7 @@ console.log("Hello from src/index.js!");
 // // element.addEventListener(event_type, callbackFunction)
 // button.addEventListener('click', callbackFunctionBtn);
 // element.addEventListener(event_type, function executed when event is performed by the user)
+
 
 // SECOND PART OF THE LECTURE: HTTP & AJAX
   // GET REQUEST
