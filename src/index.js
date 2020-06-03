@@ -29,12 +29,11 @@ console.log("Hello from src/index.js!");
 
 // SECOND PART OF THE LECTURE: HTTP & AJAX
   // GET REQUEST
-
   //   fetch(url).then((response) => {
   //   // Do something once HTTP response is received
   // });
 
-// FIRST STEP: PLAYING WITH THE DATA
+  // FIRST STEP: PLAYING WITH THE DATA
   // fetch("http://www.omdbapi.com/?s=harry potter&apikey=adf1f2d7") // open an url and getting back a respsonse
   // // .then(callbackFunction)
   // .then(response => response.json()) //i transform my response into a json object (object from js)
@@ -130,24 +129,26 @@ myForm.addEventListener('submit', (event) => {
   apiCall(userInput)
 });
 
+
+
 // POST REQUEST
-// difference with GET is the second argument, the boyd of information we're sending !
+  // difference with GET is the second argument, the boyd of information we're sending !
 
-// { method: "POST", body: JSON.stringify({ query: event.currentTarget.value })}
+  // { method: "POST", body: JSON.stringify({ query: event.currentTarget.value })}
 
-// const searchAlgoliaPlaces = (event) => {
-//   fetch("https://places-dsn.algolia.net/1/places/query", {
-//     method: "POST",
-//     body: JSON.stringify({ query: event.currentTarget.value })
-//   })
-//     .then(response => response.json())
-//     .then((data) => {
-//       console.log(data.hits); // Look at local_names.default
-//     });
-// };
+  // const searchAlgoliaPlaces = (event) => {
+  //   fetch("https://places-dsn.algolia.net/1/places/query", {
+  //     method: "POST",
+  //     body: JSON.stringify({ query: event.currentTarget.value })
+  //   })
+  //     .then(response => response.json())
+  //     .then((data) => {
+  //       console.log(data.hits); // Look at local_names.default
+  //     });
+  // };
 
-// const input = document.querySelector("#search");
-// input.addEventListener("keyup", searchAlgoliaPlaces);
+  // const input = document.querySelector("#search");
+  // input.addEventListener("keyup", searchAlgoliaPlaces);
 
 
 
