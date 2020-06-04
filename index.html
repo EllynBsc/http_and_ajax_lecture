@@ -6,18 +6,30 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet"
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
 </head>
 <body>
 
 
   <div class="container text-center">
-    <!--     <a href="#" class="btn btn-primary" id="click-me" style="margin: 20px">bonjour!</a> -->
+
     <form id="search-movies" class="form-inline">
       <input id="keyword" type="text" class="form-control ml-auto mr-2" placeholder="Find movies">
       <input type="submit" class="btn btn-primary mr-auto ml-2" value="Search">
     </form>
-    <ul id="results"></ul> <!-- ul for my ajax request -->
+    <ul id="results" class="d-flex"></ul>
+    <h3>MARKDOWN PACKAGE</h3>
+    <textarea class="form-control" id="editor" rows="4"></textarea>
+    <div id="preview"></div>
+
+
+    <h3>SELECT2 PACKAGE</h3>
+    <select class="select2" name="country">
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+    </select>
   </div>
   <script src="main.js"></script>
 </body>
 </html>
+
